@@ -1,8 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+
+using AutoMapper;
+
 using Microsoft.AspNetCore.Mvc;
+
 using MonkeyShelter.App;
 using MonkeyShelter.Data.Model;
+using MonkeyShelter.Web.Model;
 
 namespace MonkeyShelter.Web.Controllers
 {
@@ -11,26 +16,28 @@ namespace MonkeyShelter.Web.Controllers
     public class MonkeysController : ControllerBase
     {
         private readonly IShelterApp _shelter;
+        private readonly IMapper _mapper;
 
-        public MonkeysController(IShelterApp shelter)
+        public MonkeysController(IShelterApp shelter, IMapper mapper)
         {
             _shelter = shelter;
+            _mapper = mapper;
         }
 
         // GET: api/Monkeys
         [HttpGet]
-        public async Task<IReadOnlyCollection<Monkey>> GetMonkeys()
+        public async Task<IReadOnlyCollection<MonkeyDto>> GetMonkeys()
         {
-            return await _shelter.ListRegistryAsync();
+            return _mapper.Map<IReadOnlyCollection<Monkey>, IReadOnlyCollection<MonkeyDto>>(await _shelter.ListRegistryAsync());
         }
 
         // GET: api/Monkeys/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Monkey>> GetMonkey(string id)
+        public async Task<ActionResult<MonkeyDto>> GetMonkey(string id)
         {
             try
             {
-                return await _shelter.GetMonkeyDetailsAsync(id);
+                return _mapper.Map<Monkey, MonkeyDto>(await _shelter.GetMonkeyDetailsAsync(id));
             }
             catch (NotFoundException)
             {
@@ -41,7 +48,7 @@ namespace MonkeyShelter.Web.Controllers
         // PUT: api/Monkeys/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutMonkey(string id, Monkey monkey)
+        public async Task<IActionResult> PutMonkey(string id, PutMonkeyDto monkey)
         {
             if (id != monkey.Id)
             {
@@ -50,7 +57,7 @@ namespace MonkeyShelter.Web.Controllers
 
             try
             {
-                await _shelter.UpdateRegistryAsync(monkey);
+                await _shelter.UpdateRegistryAsync(_mapper.Map<PutMonkeyDto, Monkey>(monkey));
             }
             catch (NotFoundException)
             {
@@ -63,11 +70,11 @@ namespace MonkeyShelter.Web.Controllers
         // POST: api/Monkeys
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Monkey>> PostMonkey(Monkey monkey)
+        public async Task<ActionResult<PostMonkeyDto>> PostMonkey(PostMonkeyDto monkey)
         {
             try
             {
-                await _shelter.RegisterMonkeyAsync(monkey);
+                await _shelter.RegisterMonkeyAsync(_mapper.Map<PostMonkeyDto, Monkey>(monkey));
             }
             catch (ConflictException)
             {

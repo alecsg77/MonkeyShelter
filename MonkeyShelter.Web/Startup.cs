@@ -16,6 +16,7 @@ using Microsoft.EntityFrameworkCore;
 using MonkeyShelter.App;
 using MonkeyShelter.Data;
 using MonkeyShelter.Data.Model;
+using MonkeyShelter.Web.Model;
 
 namespace MonkeyShelter.Web
 {
@@ -42,6 +43,8 @@ namespace MonkeyShelter.Web
 
             services.AddScoped<IMonkeyRepository, MonkeyContextRepository>();
             services.AddScoped<IShelterApp, ShelterApp>();
+
+            services.AddAutoMapper(o => o.AddProfile<MappingProfile>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
