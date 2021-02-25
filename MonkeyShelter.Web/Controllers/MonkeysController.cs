@@ -1,46 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-
-using MonkeyShelter.Data;
+using MonkeyShelter.App;
 using MonkeyShelter.Data.Model;
 
-namespace MonkeyShelter.Web
+namespace MonkeyShelter.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class MonkeysController : ControllerBase
     {
-        private readonly IMonkeyRepository _repository;
+        private readonly IShelterApp _shelter;
 
-        public MonkeysController(IMonkeyRepository repository)
+        public MonkeysController(IShelterApp shelter)
         {
-            _repository = repository;
+            _shelter = shelter;
         }
 
         // GET: api/Monkeys
         [HttpGet]
         public async Task<IReadOnlyCollection<Monkey>> GetMonkeys()
         {
-            return await _repository.GetAllAsync();
+            return await _shelter.ListRegistryAsync();
         }
 
         // GET: api/Monkeys/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Monkey>> GetMonkey(string id)
         {
-            var monkey = await _repository.GetByIdAsync(id);
-            if (monkey == null)
+            try
+            {
+                return await _shelter.GetMonkeyDetailsAsync(id);
+            }
+            catch (NotFoundException)
             {
                 return NotFound();
             }
-
-            return monkey;
         }
 
         // PUT: api/Monkeys/5
@@ -53,8 +48,14 @@ namespace MonkeyShelter.Web
                 return BadRequest();
             }
 
-            if (!await _repository.UpdateAsync(monkey))
+            try
+            {
+                await _shelter.UpdateRegistryAsync(monkey);
+            }
+            catch (NotFoundException)
+            {
                 return NotFound();
+            }
 
             return NoContent();
         }
@@ -64,8 +65,14 @@ namespace MonkeyShelter.Web
         [HttpPost]
         public async Task<ActionResult<Monkey>> PostMonkey(Monkey monkey)
         {
-            if (!await _repository.AddAsync(monkey))
+            try
+            {
+                await _shelter.RegisterMonkeyAsync(monkey);
+            }
+            catch (ConflictException)
+            {
                 return Conflict();
+            }
 
             return CreatedAtAction("GetMonkeys", new { id = monkey.Id }, monkey);
         }
@@ -74,8 +81,14 @@ namespace MonkeyShelter.Web
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMonkey(string id)
         {
-            if (!await _repository.RemoveByIdAsync(id))
+            try
+            {
+                await _shelter.ReleaseMonkeyAsync(id);
+            }
+            catch (NotFoundException)
+            {
                 return NotFound();
+            }
 
             return NoContent();
         }

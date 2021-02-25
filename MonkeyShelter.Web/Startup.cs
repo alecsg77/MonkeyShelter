@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using MonkeyShelter.App;
 using MonkeyShelter.Data;
 using MonkeyShelter.Data.Model;
 
@@ -40,6 +41,7 @@ namespace MonkeyShelter.Web
             services.AddDbContext<ShelterContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
 
             services.AddScoped<IMonkeyRepository, MonkeyContextRepository>();
+            services.AddScoped<IShelterApp, ShelterApp>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

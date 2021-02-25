@@ -11,5 +11,6 @@ namespace MonkeyShelter.Data
         ValueTask<TEntity> GetByIdAsync(TKey id, CancellationToken cancellationToken = default);
         ValueTask<bool> AddAsync(TEntity monkey, CancellationToken cancellationToken = default);
         ValueTask<bool> UpdateAsync(TEntity monkey, CancellationToken cancellationToken = default);
-        ValueTask<bool> RemoveByIdAsync(TKey id, CancellationToken cancellationToken = default);    }
+        ValueTask<bool> RemoveByIdAsync(TKey id, CancellationToken cancellationToken = default);
+    }
 }
