@@ -3,10 +3,8 @@ using System.Text.Json.Serialization;
 
 namespace MonkeyShelter.Data.Model
 {
-    public class Monkey
+    public class Monkey : Entity<string>
     {
-        [JsonPropertyName("_id")]
-        public string Id { get; set; }
         [JsonPropertyName("name")]
         public string Name { get; set; }
         [JsonPropertyName("age")]
@@ -22,5 +20,4 @@ namespace MonkeyShelter.Data.Model
         [JsonPropertyName("favoriteFruit")]
         public string FavoriteFruit { get; set; }
     }
-
 }

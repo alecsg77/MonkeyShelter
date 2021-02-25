@@ -1,8 +1,7 @@
-using System;
 using MonkeyShelter.Data;
 using Xunit;
 
-namespace MonkeyShelter.Tests
+namespace MonkeyShelter.Tests.Data
 {
     public class MonkeyCollectionBehaviors
     {
