@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShelter.Web", "MonkeyShelter.Web\MonkeyShelter.Web.csproj", "{DB585B90-52EB-4121-B643-E5780126C199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonkeyShelter.Web", "MonkeyShelter.Web\MonkeyShelter.Web.csproj", "{DB585B90-52EB-4121-B643-E5780126C199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShelter.App", "MonkeyShelter.App\MonkeyShelter.App.csproj", "{40508700-33E2-4D3E-B30E-175DDD88F1F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonkeyShelter.App", "MonkeyShelter.App\MonkeyShelter.App.csproj", "{40508700-33E2-4D3E-B30E-175DDD88F1F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShelter.Core", "MonkeyShelter.Core\MonkeyShelter.Core.csproj", "{70D8F675-AAE7-4CB0-B3F4-89E8BEEEE930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonkeyShelter.Core", "MonkeyShelter.Core\MonkeyShelter.Core.csproj", "{70D8F675-AAE7-4CB0-B3F4-89E8BEEEE930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShelter.EFCore", "MonkeyShelter.EFCore\MonkeyShelter.EFCore.csproj", "{EFFD35B2-938A-4D8A-B6AB-C5A05E943965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonkeyShelter.EFCore", "MonkeyShelter.EFCore\MonkeyShelter.EFCore.csproj", "{EFFD35B2-938A-4D8A-B6AB-C5A05E943965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShelter.Tests", "MonkeyShelter.Tests\MonkeyShelter.Tests.csproj", "{2694327F-5B12-4BD0-8F8A-8291E0C0E347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EFFD35B2-938A-4D8A-B6AB-C5A05E943965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFFD35B2-938A-4D8A-B6AB-C5A05E943965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFFD35B2-938A-4D8A-B6AB-C5A05E943965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2694327F-5B12-4BD0-8F8A-8291E0C0E347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2694327F-5B12-4BD0-8F8A-8291E0C0E347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2694327F-5B12-4BD0-8F8A-8291E0C0E347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2694327F-5B12-4BD0-8F8A-8291E0C0E347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

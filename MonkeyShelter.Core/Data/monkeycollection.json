@@ -1,0 +1,882 @@
+[
+  {
+    "_id": "602f8816c54a31ed4a48b970",
+    "name": "Simon",
+    "age": 1,
+    "weight": 60,
+    "eyeColor": "brown",
+    "species": "Equatorial saki",
+    "registered": "Sun Dec 27 2015 22:22:57",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88162badadb1444d653c",
+    "name": "Willis",
+    "age": 10,
+    "weight": 16,
+    "eyeColor": "blue",
+    "species": "Equatorial saki",
+    "registered": "Sun Feb 17 2019 17:05:57",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f881671712d9f8c5b8e6f",
+    "name": "Lila",
+    "age": 2,
+    "weight": 42,
+    "eyeColor": "green",
+    "species": "Emperor tamarin",
+    "registered": "Mon Nov 20 2017 18:03:23",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88164c22251ab025d6c6",
+    "name": "Garcia",
+    "age": 12,
+    "weight": 91,
+    "eyeColor": "brown",
+    "species": "White-nosed saki",
+    "registered": "Tue Sep 22 2020 04:17:02",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816518bad3a167e7245",
+    "name": "Merle",
+    "age": 6,
+    "weight": 50,
+    "eyeColor": "brown",
+    "species": "White-coated titi",
+    "registered": "Mon Dec 18 2017 22:55:30",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f881603cb744b9c77ae45",
+    "name": "Hart",
+    "age": 4,
+    "weight": 73,
+    "eyeColor": "blue",
+    "species": "Pygmy marmoset",
+    "registered": "Tue Sep 29 2020 22:46:58",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88162ccc0bb6f2f0a30f",
+    "name": "Sherri",
+    "age": 25,
+    "weight": 52,
+    "eyeColor": "green",
+    "species": "Red-faced spider monkey",
+    "registered": "Sat Dec 09 2017 02:29:18",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88165e86941cd68635f2",
+    "name": "Becky",
+    "age": 11,
+    "weight": 46,
+    "eyeColor": "brown",
+    "species": "Colombian woolly monkey",
+    "registered": "Sun May 24 2015 21:21:26",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816502802e8cd44f0d4",
+    "name": "Bowen",
+    "age": 28,
+    "weight": 31,
+    "eyeColor": "brown",
+    "species": "Rio Purus titi",
+    "registered": "Mon Feb 22 2016 04:01:30",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f881654c0ec355e4d8951",
+    "name": "Bonnie",
+    "age": 20,
+    "weight": 45,
+    "eyeColor": "green",
+    "species": "Amazon black howler",
+    "registered": "Wed Jun 07 2017 07:19:55",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f881621aa11b44d8a1303",
+    "name": "Mccarty",
+    "age": 7,
+    "weight": 85,
+    "eyeColor": "brown",
+    "species": "Equatorial saki",
+    "registered": "Sat Dec 05 2015 16:25:20",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88168c54f999087296fd",
+    "name": "Isabella",
+    "age": 30,
+    "weight": 37,
+    "eyeColor": "green",
+    "species": "Blond capuchin",
+    "registered": "Wed May 14 2014 13:08:21",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f881606f848668a28102a",
+    "name": "Soto",
+    "age": 24,
+    "weight": 33,
+    "eyeColor": "blue",
+    "species": "Blond capuchin",
+    "registered": "Mon Apr 21 2014 02:37:46",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88168aea983ef56a5dc4",
+    "name": "Hughes",
+    "age": 5,
+    "weight": 27,
+    "eyeColor": "green",
+    "species": "White-nosed saki",
+    "registered": "Tue Nov 26 2019 19:57:09",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816013638da2c913212",
+    "name": "Bridgett",
+    "age": 13,
+    "weight": 97,
+    "eyeColor": "green",
+    "species": "Northern muriqui",
+    "registered": "Sat Sep 29 2018 01:04:06",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816e3aa400e25ac0b85",
+    "name": "Sonya",
+    "age": 4,
+    "weight": 37,
+    "eyeColor": "brown",
+    "species": "Brown spider monkey",
+    "registered": "Sun Sep 09 2018 15:44:09",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816748b40c8013c26fa",
+    "name": "Phillips",
+    "age": 7,
+    "weight": 84,
+    "eyeColor": "green",
+    "species": "Northern muriqui",
+    "registered": "Tue Aug 23 2016 11:46:47",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816d9b997082893e7ee",
+    "name": "Rocha",
+    "age": 3,
+    "weight": 61,
+    "eyeColor": "blue",
+    "species": "Bald uakari",
+    "registered": "Thu May 19 2016 16:52:50",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816179a4cce6e818c51",
+    "name": "Dolly",
+    "age": 19,
+    "weight": 52,
+    "eyeColor": "blue",
+    "species": "Red-backed bearded saki",
+    "registered": "Wed Feb 21 2018 02:46:21",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816771b0cb94e5d108c",
+    "name": "Mia",
+    "age": 4,
+    "weight": 87,
+    "eyeColor": "green",
+    "species": "White-nosed saki",
+    "registered": "Fri Feb 16 2018 05:45:45",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816680befd1a6b660c3",
+    "name": "Gail",
+    "age": 24,
+    "weight": 96,
+    "eyeColor": "blue",
+    "species": "Red-faced spider monkey",
+    "registered": "Sat Dec 14 2019 06:32:09",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88167fcb0e827876cd28",
+    "name": "Petra",
+    "age": 23,
+    "weight": 65,
+    "eyeColor": "green",
+    "species": "Red-faced spider monkey",
+    "registered": "Sun Jul 30 2017 03:02:44",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816b887164b44a94a5f",
+    "name": "Heath",
+    "age": 29,
+    "weight": 9,
+    "eyeColor": "brown",
+    "species": "White-nosed saki",
+    "registered": "Fri Aug 24 2018 19:01:50",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88168243f341d9073111",
+    "name": "Marva",
+    "age": 15,
+    "weight": 82,
+    "eyeColor": "brown",
+    "species": "Gray-handed night monkey",
+    "registered": "Mon Dec 15 2014 18:52:28",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816f5daa57b8147505a",
+    "name": "Noelle",
+    "age": 26,
+    "weight": 96,
+    "eyeColor": "brown",
+    "species": "Rio Purus titi",
+    "registered": "Fri Nov 23 2018 22:29:59",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816da2919085bb09a2e",
+    "name": "Shelley",
+    "age": 13,
+    "weight": 60,
+    "eyeColor": "green",
+    "species": "Brown spider monkey",
+    "registered": "Wed Apr 24 2019 05:58:07",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88162746b965850780d6",
+    "name": "Eddie",
+    "age": 21,
+    "weight": 47,
+    "eyeColor": "blue",
+    "species": "White-coated titi",
+    "registered": "Tue Jan 26 2021 16:52:57",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88164d0c0759e040375b",
+    "name": "Owen",
+    "age": 30,
+    "weight": 100,
+    "eyeColor": "brown",
+    "species": "Gray-handed night monkey",
+    "registered": "Wed Aug 14 2019 13:24:45",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88160aa830319f1e1e4b",
+    "name": "Raquel",
+    "age": 30,
+    "weight": 82,
+    "eyeColor": "green",
+    "species": "Red-faced spider monkey",
+    "registered": "Tue Jan 06 2015 00:43:18",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88168273657f75223095",
+    "name": "Elisabeth",
+    "age": 27,
+    "weight": 71,
+    "eyeColor": "blue",
+    "species": "White-nosed saki",
+    "registered": "Fri Feb 14 2014 15:05:59",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816570793ba506afdd6",
+    "name": "Lowery",
+    "age": 5,
+    "weight": 43,
+    "eyeColor": "green",
+    "species": "Mantled howler",
+    "registered": "Mon Dec 21 2020 00:49:12",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88167cad373cce4fd70a",
+    "name": "Howell",
+    "age": 17,
+    "weight": 94,
+    "eyeColor": "blue",
+    "species": "Blond capuchin",
+    "registered": "Thu Jan 07 2021 08:37:42",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816e549fb7b90e64ea7",
+    "name": "Briana",
+    "age": 18,
+    "weight": 63,
+    "eyeColor": "brown",
+    "species": "Pygmy marmoset",
+    "registered": "Tue Sep 03 2019 01:57:42",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88164cabfa4782b8e57e",
+    "name": "Ferrell",
+    "age": 18,
+    "weight": 11,
+    "eyeColor": "blue",
+    "species": "Brown spider monkey",
+    "registered": "Fri Jul 29 2016 14:31:46",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816737bab11eef069c6",
+    "name": "Madeline",
+    "age": 27,
+    "weight": 22,
+    "eyeColor": "green",
+    "species": "Brown spider monkey",
+    "registered": "Thu Jan 31 2019 09:34:17",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816d9a3e2927612a818",
+    "name": "Hardy",
+    "age": 4,
+    "weight": 42,
+    "eyeColor": "green",
+    "species": "Bald uakari",
+    "registered": "Sun Jul 19 2015 23:55:27",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816dfd255ece46426f0",
+    "name": "Bobbi",
+    "age": 20,
+    "weight": 87,
+    "eyeColor": "green",
+    "species": "Brown spider monkey",
+    "registered": "Tue Jan 07 2014 22:01:02",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88160114589f2298cd5b",
+    "name": "Kelsey",
+    "age": 23,
+    "weight": 82,
+    "eyeColor": "brown",
+    "species": "White-coated titi",
+    "registered": "Sat Jan 10 2015 09:42:40",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88162c5e22fc460fbb8e",
+    "name": "Wilson",
+    "age": 2,
+    "weight": 64,
+    "eyeColor": "brown",
+    "species": "Colombian woolly monkey",
+    "registered": "Thu Apr 30 2015 13:17:22",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816c4584af49ad49160",
+    "name": "Haley",
+    "age": 16,
+    "weight": 41,
+    "eyeColor": "brown",
+    "species": "Red-faced spider monkey",
+    "registered": "Mon Jul 21 2014 21:40:00",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f881681f655beaea1c4ba",
+    "name": "Deanne",
+    "age": 14,
+    "weight": 44,
+    "eyeColor": "brown",
+    "species": "Bald uakari",
+    "registered": "Sun Apr 30 2017 18:45:22",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f881651cd39cf24bf5438",
+    "name": "Terrie",
+    "age": 11,
+    "weight": 78,
+    "eyeColor": "green",
+    "species": "Mantled howler",
+    "registered": "Wed May 06 2015 23:48:26",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816d4b965066642ca9f",
+    "name": "Nelda",
+    "age": 29,
+    "weight": 82,
+    "eyeColor": "blue",
+    "species": "Bald uakari",
+    "registered": "Fri Sep 16 2016 19:00:21",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816cc7ee062f0f54465",
+    "name": "Pansy",
+    "age": 4,
+    "weight": 97,
+    "eyeColor": "brown",
+    "species": "Red-backed bearded saki",
+    "registered": "Fri Jan 12 2018 07:07:22",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816026c58118717b2ea",
+    "name": "Queen",
+    "age": 16,
+    "weight": 88,
+    "eyeColor": "blue",
+    "species": "Rio Purus titi",
+    "registered": "Tue Dec 01 2015 15:02:13",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88166c414e4872aebed7",
+    "name": "Julianne",
+    "age": 18,
+    "weight": 27,
+    "eyeColor": "blue",
+    "species": "White-coated titi",
+    "registered": "Wed Oct 12 2016 12:54:13",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816aeeb4cfcb3c9ec34",
+    "name": "Trevino",
+    "age": 21,
+    "weight": 49,
+    "eyeColor": "brown",
+    "species": "Red-faced spider monkey",
+    "registered": "Tue Apr 28 2015 16:56:28",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816d3ccaeb452ad9f20",
+    "name": "Pate",
+    "age": 12,
+    "weight": 22,
+    "eyeColor": "blue",
+    "species": "Colombian woolly monkey",
+    "registered": "Sun Dec 29 2019 09:35:37",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816e705f4e4b90a2656",
+    "name": "Frost",
+    "age": 2,
+    "weight": 27,
+    "eyeColor": "brown",
+    "species": "Amazon black howler",
+    "registered": "Sun Jan 04 2015 17:45:59",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88166d30e5f72379bf35",
+    "name": "Long",
+    "age": 6,
+    "weight": 36,
+    "eyeColor": "blue",
+    "species": "Mantled howler",
+    "registered": "Thu Mar 17 2016 12:39:10",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88168bc937404984b6df",
+    "name": "Maryellen",
+    "age": 21,
+    "weight": 79,
+    "eyeColor": "blue",
+    "species": "White-nosed saki",
+    "registered": "Fri Apr 08 2016 20:11:18",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f881615674eb5c81e836a",
+    "name": "Barber",
+    "age": 27,
+    "weight": 33,
+    "eyeColor": "green",
+    "species": "White-nosed saki",
+    "registered": "Tue Feb 17 2015 00:43:57",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88166c4d4eb29088e8e4",
+    "name": "Swanson",
+    "age": 8,
+    "weight": 24,
+    "eyeColor": "green",
+    "species": "Blond capuchin",
+    "registered": "Sun Feb 02 2020 06:51:21",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816078429344abb6ff1",
+    "name": "Minerva",
+    "age": 26,
+    "weight": 89,
+    "eyeColor": "green",
+    "species": "White-coated titi",
+    "registered": "Thu Mar 03 2016 17:33:23",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816a5a88c48a26e085f",
+    "name": "Ashley",
+    "age": 27,
+    "weight": 7,
+    "eyeColor": "green",
+    "species": "Red-faced spider monkey",
+    "registered": "Mon Feb 24 2020 06:14:55",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816aa53ee3fed2a3b2d",
+    "name": "Melissa",
+    "age": 7,
+    "weight": 95,
+    "eyeColor": "blue",
+    "species": "Colombian woolly monkey",
+    "registered": "Tue Jun 03 2014 07:07:46",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88161bc615068bd6ebc4",
+    "name": "Christi",
+    "age": 2,
+    "weight": 14,
+    "eyeColor": "green",
+    "species": "Amazon black howler",
+    "registered": "Sat Dec 27 2014 13:57:42",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f881634c3ffc598cc5096",
+    "name": "Townsend",
+    "age": 8,
+    "weight": 54,
+    "eyeColor": "green",
+    "species": "White-nosed saki",
+    "registered": "Thu Dec 13 2018 22:58:37",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816eedf4129a0a1d936",
+    "name": "Cunningham",
+    "age": 5,
+    "weight": 41,
+    "eyeColor": "green",
+    "species": "Mantled howler",
+    "registered": "Fri Sep 22 2017 19:05:33",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816fa616584713d234d",
+    "name": "Downs",
+    "age": 5,
+    "weight": 60,
+    "eyeColor": "brown",
+    "species": "White-nosed saki",
+    "registered": "Sat Nov 05 2016 00:18:46",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88167f45b4b755f235d3",
+    "name": "Salas",
+    "age": 2,
+    "weight": 65,
+    "eyeColor": "blue",
+    "species": "Colombian woolly monkey",
+    "registered": "Sat Apr 16 2016 21:24:07",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816d8c1d9bc7d116f86",
+    "name": "Carla",
+    "age": 18,
+    "weight": 80,
+    "eyeColor": "blue",
+    "species": "Colombian woolly monkey",
+    "registered": "Fri Oct 09 2015 14:23:59",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816ab23e31a633116a9",
+    "name": "Aurelia",
+    "age": 4,
+    "weight": 31,
+    "eyeColor": "blue",
+    "species": "Blond capuchin",
+    "registered": "Thu Jan 11 2018 01:04:30",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816ed2e7fcc8494b515",
+    "name": "Joyner",
+    "age": 5,
+    "weight": 55,
+    "eyeColor": "blue",
+    "species": "White-coated titi",
+    "registered": "Mon Jan 15 2018 10:19:10",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816551c5bde6ee5aedd",
+    "name": "Lorene",
+    "age": 22,
+    "weight": 93,
+    "eyeColor": "blue",
+    "species": "Rio Purus titi",
+    "registered": "Tue Jan 23 2018 21:45:02",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f881641e0f51172ab730c",
+    "name": "Carissa",
+    "age": 6,
+    "weight": 77,
+    "eyeColor": "green",
+    "species": "Brown spider monkey",
+    "registered": "Thu Jul 26 2018 11:50:18",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816b2ee5ade1f000844",
+    "name": "Brennan",
+    "age": 4,
+    "weight": 13,
+    "eyeColor": "brown",
+    "species": "White-nosed saki",
+    "registered": "Mon Sep 21 2020 22:26:47",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816b33b34cfe2f7add4",
+    "name": "Kennedy",
+    "age": 2,
+    "weight": 96,
+    "eyeColor": "green",
+    "species": "Northern muriqui",
+    "registered": "Sun Apr 19 2020 19:27:17",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f881631a22cddd9a34b7e",
+    "name": "Jillian",
+    "age": 30,
+    "weight": 12,
+    "eyeColor": "brown",
+    "species": "Equatorial saki",
+    "registered": "Wed Oct 28 2020 10:26:45",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816fd1c845c183eeda6",
+    "name": "Bowers",
+    "age": 29,
+    "weight": 55,
+    "eyeColor": "green",
+    "species": "Bald uakari",
+    "registered": "Mon Mar 12 2018 01:44:59",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816352ad44fec815350",
+    "name": "Melanie",
+    "age": 21,
+    "weight": 48,
+    "eyeColor": "blue",
+    "species": "Red-backed bearded saki",
+    "registered": "Sun Dec 23 2018 08:04:27",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f8816ef7a316c0aeb611c",
+    "name": "Maddox",
+    "age": 16,
+    "weight": 19,
+    "eyeColor": "brown",
+    "species": "Bald uakari",
+    "registered": "Mon May 05 2014 05:43:03",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88163173075395cd9407",
+    "name": "Key",
+    "age": 2,
+    "weight": 70,
+    "eyeColor": "brown",
+    "species": "Mantled howler",
+    "registered": "Tue Mar 31 2015 19:59:58",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816fd53f01196d0283f",
+    "name": "Carol",
+    "age": 21,
+    "weight": 18,
+    "eyeColor": "blue",
+    "species": "Gray-handed night monkey",
+    "registered": "Wed Dec 05 2018 13:58:34",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88162b481b58d7f72476",
+    "name": "Hubbard",
+    "age": 18,
+    "weight": 29,
+    "eyeColor": "brown",
+    "species": "Emperor tamarin",
+    "registered": "Mon Jul 20 2020 01:54:19",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88167e13b813d8aea5e3",
+    "name": "Sexton",
+    "age": 27,
+    "weight": 28,
+    "eyeColor": "brown",
+    "species": "Emperor tamarin",
+    "registered": "Wed Feb 27 2019 20:53:57",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816792a6d9a079aa096",
+    "name": "Banks",
+    "age": 23,
+    "weight": 19,
+    "eyeColor": "brown",
+    "species": "Red-faced spider monkey",
+    "registered": "Thu Jul 02 2020 11:54:54",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816176b3a3f017957f5",
+    "name": "Bonner",
+    "age": 6,
+    "weight": 3,
+    "eyeColor": "green",
+    "species": "Amazon black howler",
+    "registered": "Mon Mar 30 2015 07:09:42",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88166d36a45a1c03fad9",
+    "name": "Maryann",
+    "age": 8,
+    "weight": 27,
+    "eyeColor": "blue",
+    "species": "Gray-handed night monkey",
+    "registered": "Wed Mar 26 2014 03:41:17",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88168d8387f6effda3af",
+    "name": "Gay",
+    "age": 23,
+    "weight": 91,
+    "eyeColor": "green",
+    "species": "Rio Purus titi",
+    "registered": "Sat Jun 18 2016 10:55:35",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f8816e8639b3b8e679826",
+    "name": "Imogene",
+    "age": 22,
+    "weight": 39,
+    "eyeColor": "green",
+    "species": "Bald uakari",
+    "registered": "Tue Jan 06 2015 03:17:22",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88162c5356d3c99eac0f",
+    "name": "Corinne",
+    "age": 22,
+    "weight": 57,
+    "eyeColor": "green",
+    "species": "Northern muriqui",
+    "registered": "Thu Jan 04 2018 04:09:23",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f8816a3a4402ff580cf25",
+    "name": "Jodi",
+    "age": 24,
+    "weight": 24,
+    "eyeColor": "blue",
+    "species": "Equatorial saki",
+    "registered": "Fri Nov 06 2015 20:31:29",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f881601aa70c673db3257",
+    "name": "Finch",
+    "age": 29,
+    "weight": 37,
+    "eyeColor": "brown",
+    "species": "Red-faced spider monkey",
+    "registered": "Fri Jan 12 2018 19:26:16",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88168c57ee21d311e583",
+    "name": "Patti",
+    "age": 7,
+    "weight": 14,
+    "eyeColor": "brown",
+    "species": "Northern muriqui",
+    "registered": "Thu Feb 15 2018 01:08:21",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "602f88164185ce8c63b237a2",
+    "name": "Delacruz",
+    "age": 12,
+    "weight": 78,
+    "eyeColor": "blue",
+    "species": "Northern muriqui",
+    "registered": "Tue Oct 25 2016 18:07:16",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "602f88161a133e665dd5edd3",
+    "name": "Madelyn",
+    "age": 29,
+    "weight": 90,
+    "eyeColor": "blue",
+    "species": "Blond capuchin",
+    "registered": "Sun Apr 05 2020 08:16:46",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "602f88167fe45d36cf984e9a",
+    "name": "Richards",
+    "age": 1,
+    "weight": 34,
+    "eyeColor": "blue",
+    "species": "Amazon black howler",
+    "registered": "Thu Jan 04 2018 05:17:06",
+    "favoriteFruit": "strawberry"
+  }
+]
