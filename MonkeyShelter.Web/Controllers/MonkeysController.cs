@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 using AutoMapper;
 
 using Microsoft.AspNetCore.Mvc;
 
 using MonkeyShelter.App;
+using MonkeyShelter.App.Model;
 using MonkeyShelter.Data.Model;
 using MonkeyShelter.Web.Model;
 
@@ -26,9 +26,9 @@ namespace MonkeyShelter.Web.Controllers
 
         // GET: api/Monkeys
         [HttpGet]
-        public async Task<IReadOnlyCollection<MonkeyDto>> GetMonkeys()
+        public async Task<ActionResult<MonkeyIndexDto>> GetMonkeys()
         {
-            return _mapper.Map<IReadOnlyCollection<Monkey>, IReadOnlyCollection<MonkeyDto>>(await _shelter.ListRegistryAsync());
+            return _mapper.Map<MonkeyRegistry, MonkeyIndexDto>(await _shelter.GetRegistryAsync());
         }
 
         // GET: api/Monkeys/5
@@ -37,7 +37,7 @@ namespace MonkeyShelter.Web.Controllers
         {
             try
             {
-                return _mapper.Map<Monkey, MonkeyDto>(await _shelter.GetMonkeyDetailsAsync(id));
+                return _mapper.Map<MonkeyDetails, MonkeyDto>(await _shelter.GetMonkeyDetailsAsync(id));
             }
             catch (NotFoundException)
             {
@@ -57,7 +57,7 @@ namespace MonkeyShelter.Web.Controllers
 
             try
             {
-                await _shelter.UpdateRegistryAsync(_mapper.Map<PutMonkeyDto, Monkey>(monkey));
+                await _shelter.UpdateRegistryAsync(_mapper.Map<PutMonkeyDto, UpdateRegistryRequest>(monkey));
             }
             catch (NotFoundException)
             {
@@ -74,7 +74,7 @@ namespace MonkeyShelter.Web.Controllers
         {
             try
             {
-                await _shelter.RegisterMonkeyAsync(_mapper.Map<PostMonkeyDto, Monkey>(monkey));
+                await _shelter.RegisterMonkeyAsync(_mapper.Map<PostMonkeyDto, RegisterMonkeyRequest>(monkey));
             }
             catch (ConflictException)
             {
